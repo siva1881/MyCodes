@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\SivaKarthik\i18n\example-projects\angular-i18n-localization-master\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! D:\SivaKarthik\Downloaded files\angular-i18n-localization-master\angular-i18n-localization-master\src\styles.css */"./src/styles.css");
 
 
 /***/ })

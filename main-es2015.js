@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1 i18n>\n  Localization Demo in Angular using i18n\n</h1>\n\n<h3 i18n=\"@@myName\">\n  Hello, My name is Ankit\n</h3>\n<p>This text will remain same in all languages</p>\n<hr />\n\n<ng-container *ngFor=\"let language of languageList\">\n  <a href=\"/{{language.code}}/\"><button class=\"button\">{{language.label}}</button></a>\n</ng-container>\n"
+module.exports = "<h1 i18n>\n  Localization Demo in Angular using i18n\n</h1>\n\n<h3 i18n=\"@@myName\">\n  Hello, My name is Ankit\n</h3>\n<p>This text will remain same in all languages</p>\n<hr />\n\n<!-- <button type=\"button\" (click)=\"load('es')\">English</button> -->\n<p>Added</p>\n\n<ng-container *ngFor=\"let language of languageList\">\n  <a href=\"/{{language.code}}/\"><button class=\"button\">{{language.label}}</button></a>\n</ng-container>\n"
 
 /***/ }),
 
@@ -182,7 +182,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\SivaKarthik\i18n\example-projects\angular-i18n-localization-master\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\SivaKarthik\Downloaded files\angular-i18n-localization-master\angular-i18n-localization-master\src\main.ts */"./src/main.ts");
 
 
 /***/ })
